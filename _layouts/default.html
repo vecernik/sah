@@ -17,11 +17,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="theme-color" content="#157878"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"/>
+    <link rel="stylesheet" href="{{ 'assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"/>
 </head>
 <body>
 <header class="page-header" role="banner">
-    <h1 class="project-name"><a href="/{{ site.baseurl }}">{{ site.title }}</a></h1>
+    <h1 class="project-name"><a href="{{ site.url }}">{{ site.title }}</a></h1>
     <h2 class="project-tagline">{{ site.description }}</h2>
     <h5 class="project-tagline english">{{ site.description_en }}</h5>
     {% if site.github.is_project_page %}
